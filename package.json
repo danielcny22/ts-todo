@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "ts-node src/index.ts",
+    "build:web": "tsc web/app.ts --outDir web --target es2020 --module es2020 --lib es2020,dom --skipLibCheck",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
